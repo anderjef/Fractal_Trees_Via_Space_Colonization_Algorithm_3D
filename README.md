@@ -39,12 +39,12 @@ Current version: 0.1.0 <br>
 Click and drag the display to rotate the camera. Scroll to zoom.
 
 ### Executables
-- [32-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.linux32/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
-- [64-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.linux64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
-- [ARM 64-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.linux-arm64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
-- [Hard Float ARMv6 Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.linux-armv6hf/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
-- [32-bit Windows](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.windows32/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.exe)
-- [64-bit Windows](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/application.windows64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.exe)
+- [32-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.linux32/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
+- [64-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.linux64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
+- [ARM 64-bit Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.linux-arm64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
+- [Hard Float ARMv6 Linux](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.linux-armv6hf/Fractal_Trees_Via_Space_Colonization_Algorithm_3D)
+- [32-bit Windows](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.windows32/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.exe)
+- [64-bit Windows](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/tree/main/application.windows64/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.exe)
 
 ## Contributions
 - Jeffrey Andersen - developer
