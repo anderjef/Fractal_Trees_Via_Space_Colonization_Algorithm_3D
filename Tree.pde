@@ -1,6 +1,10 @@
+// Jeffrey Andersen
+
+
 class Tree {
   ArrayList<Leaf> leaves = new ArrayList<Leaf>();
   ArrayList<Branch> branches = new ArrayList<Branch>();
+
 
   Tree() {
     for (int i = 0; i < numLeaves; ++i) {
@@ -21,6 +25,7 @@ class Tree {
       }
     }
   }
+
 
   void grow() {
     for (int i = leaves.size() - 1; i >= 0; --i) {

@@ -1,7 +1,6 @@
-//started 11/03/2020
-//inspiration: https://www.youtube.com/watch?v=kKT0v3qhIQY, https://www.youtube.com/watch?v=JcopTKXt8L8
+// Jeffrey Andersen
 
-//future considerations: guarantee all leaves are deleted once the tree is finished growing, improve starting area
+//future considerations: guarantee all leaves are deleted once the tree is finished growing, improve starting area shape
 
 import peasy.*;
 

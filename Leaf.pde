@@ -1,3 +1,5 @@
+// Jeffrey Andersen
+
 class Leaf {
   PVector position = PVector.random3D().mult(random(treeRadius));
   boolean isAttracting = false;
