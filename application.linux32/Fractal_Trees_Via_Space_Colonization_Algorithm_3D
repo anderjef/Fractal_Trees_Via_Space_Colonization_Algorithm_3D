@@ -1,5 +1,0 @@
-#!/bin/sh
-
-APPDIR=$(readlink -f "$0")
-APPDIR=$(dirname "$APPDIR")
-java -Djna.nosys=true -Djava.library.path="$APPDIR:$APPDIR/lib" -cp "$APPDIR:$APPDIR/lib/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.jar:$APPDIR/lib/core.jar:$APPDIR/lib/jogl-all.jar:$APPDIR/lib/gluegen-rt.jar:$APPDIR/lib/jogl-all-natives-linux-i586.jar:$APPDIR/lib/gluegen-rt-natives-linux-i586.jar:$APPDIR/lib/peasy-math.jar:$APPDIR/lib/peasycam.jar" Fractal_Trees_Via_Space_Colonization_Algorithm_3D "$@"

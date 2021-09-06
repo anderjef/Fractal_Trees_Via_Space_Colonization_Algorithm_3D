@@ -1,4 +1,4 @@
-// Jeffrey Andersen
+//Jeffrey Andersen
 
 //future considerations: guarantee all leaves are deleted once the tree is finished growing, improve starting area shape
 

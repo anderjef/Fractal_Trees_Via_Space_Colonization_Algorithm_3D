@@ -1,4 +1,4 @@
-# Fractal_Trees_Via_Space_Colonization_Algorithm_3D
+# Fractal Trees Via Space Colonization Algorithm 3D
 ### Copyright
 (c) © 2020 Jeffrey Andersen
 

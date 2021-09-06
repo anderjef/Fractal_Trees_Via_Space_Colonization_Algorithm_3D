@@ -1,4 +1,4 @@
-// Jeffrey Andersen
+//Jeffrey Andersen
 
 class Leaf {
   PVector position = PVector.random3D().mult(random(treeRadius));
