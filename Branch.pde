@@ -2,31 +2,30 @@
 
 class Branch {
   Branch parent;
-  PVector position;
+  PVector pos; //position
   PVector direction;
   PVector originalDirection;
-  int attractiveLeavesCount = 0;
-  
-  Branch(Branch _parent, PVector _position, PVector _direction) {
+  int numAttractingLeaves = 0;
+
+  Branch(Branch _parent, PVector _pos, PVector _direction) {
     parent = _parent;
-    position = _position;
-    direction = _direction;
+    pos = _pos; //note that input _pos PVector is not copied (because currently, this method occupies fewer lines of code)
+    direction = _direction; //note that input _direction PVector is not copied (because currently, this method is slightly more optimized)
     originalDirection = direction.copy();
   }
 
   Branch spawnChild() {
-    PVector nextPosition = PVector.mult(this.direction, minBranchLength);
-    return new Branch(this, PVector.add(this.position, nextPosition), this.direction.copy());
+    return new Branch(this, direction.copy().mult(minBranchLength).add(pos), direction.copy());
   }
 
   void reset() {
-    this.direction = this.originalDirection.copy();
-    this.attractiveLeavesCount = 0;
+    direction = originalDirection.copy();
+    numAttractingLeaves = 0;
   }
 
   void show() {
-    if (this.parent != null) {
-      line(this.position.x, this.position.y, this.position.z, this.parent.position.x, this.parent.position.y, this.parent.position.z);
+    if (parent != null) {
+      line(pos.x, pos.y, pos.z, parent.pos.x, parent.pos.y, parent.pos.z);
     }
   }
 }
