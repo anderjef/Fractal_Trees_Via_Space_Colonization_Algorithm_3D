@@ -46,7 +46,7 @@ Current version: 0.1.0
 ## Installation
 
 - Download [ZIP](https://github.com/anderjef/Fractal_Trees_Via_Space_Colonization_Algorithm_3D/archive/Fractal_Trees_Via_Space_Colonization_Algorithm_3D.zip). Extract to a folder named Fractal_Trees_Via_Space_Colonization_Algorithm_3D.
-- Download and install [Processing 3 or compatible](https://processing.org/). Please understand that Processing may have bugs of its own.
+- Download and install [Processing 4.0 beta 1 or compatible](https://processing.org/download). Please understand that Processing may have bugs of its own.
 - Open any of the Processing Source Code files with the Processing IDE (PDE).
 - Install the PeasyCam library (within the Processing environment).
 
